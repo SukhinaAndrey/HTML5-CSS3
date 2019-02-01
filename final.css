@@ -1,0 +1,265 @@
+body, h1, h4, h3{
+	margin:0;
+}
+hr{
+	margin: 0;
+	color: grey;
+}
+.ul1{
+	margin-top: 5%;
+	margin-right: 5%;
+}
+.li1{
+	display: inline;
+	margin: 3%;
+	color:#2F4F4F;
+	font-size: 20px;
+}
+.ul2{
+	margin-top: 3%;
+	text-align: center;
+}
+.li2{
+	display: inline;
+	margin: 1%;
+	color:#2F4F4F;
+	font-size: 18px;
+	text-align: center;
+}
+.h4{
+	color: #2F4F4F;
+	text-align:center;
+	vertical-align: center;
+	padding-top: 1.5%;
+	font-size: 20px;
+}
+.h3{
+	text-align: center;
+	color: white;
+}
+.h2{
+	color: #746F6F;
+	font-size: 130%;
+	margin-top: 10%;
+}
+.h1{
+	margin-top: 15%;
+}
+/* ------------header------------ */
+.header{
+	width: 100%;
+	height: 100px;
+}
+.logo{
+	width: 25%;
+	height: 100%;
+	margin-left: 2%;
+	float: left;
+}
+.logotip{
+	width: 50%;
+	height: 60%;
+	margin: 6%;
+}
+.list{
+	width: 45%;
+	height: 100%;
+	float: right;
+}
+/* ------------end of header---------- */
+
+
+/* ---------main---------------- */
+.main{
+	height: 650px;
+	width: 100%;
+}
+.top{
+	height: 65%;
+	width: 100%;
+	background: url(look.com.ua-1879.jpg); 
+}
+.left{
+	width: 40%;
+	height: 100%;
+	text-align: center;
+}
+#leftblock{
+	padding-top: 25%;
+}
+.sign, .learn{
+	background: #bb432c;
+	font-size: 18px;
+	cursor: pointer;
+	font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+	border-radius: 4px;
+	text-align: center;
+	padding: 10px;
+}
+.sign{
+	margin-top: 15px;
+}
+.learn{
+	margin-left: 44%;
+}
+.sign:hover, .learn:hover{
+	background: #A52A2A;
+}
+.bottom{
+	width: 100%;
+	height: 35%;
+}
+.comp{
+	width: 703px;
+	height: 556px;
+	float: right;
+	margin-right: 15%;
+	position: relative;
+	bottom: 180%;
+}
+.incomp{
+	width: 646px;
+	height: 375px;
+	margin-left: 28px; 
+	position: relative;
+	bottom: 95.5%;
+	background: #373030;
+}
+.icon1, .icon2, .icon3{
+	background: #151313;
+	font-size: 14px;
+	cursor: pointer;
+	font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+	border-radius: 4px;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	color: #D41E11;
+	width: 80px;
+	height: 35px;
+	font-weight: bold;
+}
+.icon1{
+	margin-top: 65px;
+	margin-left: 135px;
+}
+.icon3{
+	margin-left: 135px;
+}
+.icon1:hover, .icon2:hover, .icon3:hover{
+	background: grey;
+}
+#monitor{
+	width: 100%;
+	height:100%;
+}
+/* ---------------------------------------- */
+.main2{
+	width: 100%;
+	height: 1700px;
+}
+.unercomp{
+	width: 100%;
+	height: 20%;
+	background: url(look.com.ua-1879.jpg);
+}
+.firstinmain, .secondinmain, .thirdinmain, .forthinmain{
+	width: 100%;
+	height: 20%;
+}
+.leng, .kata, .renk, .gain, .create{
+	width: 30%;
+	height: 100%;
+	float: left;
+	margin-left: 15%;
+}
+#img2, #img5{
+	margin-top: 10%;
+}
+.secondinmain, .forthinmain{
+	background: #EAEEF1;
+}
+.leng2, .kata2, .renk2, .gain2, .create2{
+	width: 30%;
+	height: 100%;
+	float: right;
+	margin-right: 15%;
+}
+#img3, #img4{
+	height: 100%;
+}
+/* ------------------------------------ */
+.main3{
+	height: 1000px;
+	width: 100%;
+}
+.fifthinmain{
+	width: 100%;
+	height: 30%;
+}
+.sixthinmain{
+	height: 70%;
+	width: 100%;
+	background: #EAEEF1;
+}
+.community{
+	text-align: center;
+	width: 100%;
+	height: 10%;
+}
+.messages1{
+	width: 30%;
+	height: 80%;
+	float: left;
+	margin-left: 15%;
+}
+.messages2{
+	width: 30%;
+	height: 80%;
+	float: right;
+	margin-right: 15%;
+}
+#img9, #img10, #img11, #img12{
+	height: 200px;
+	width: 350px;
+}
+.forbutton{
+	width: 100%;
+	height: 10%;
+}
+/* -------------end of main----------- */
+.footer{
+	width: 100%;
+	height: 550px;
+}
+.text{
+	width: 100%;
+	height: 10%;
+}
+.twomainparts{
+	height: 70%;
+	width: 100%;
+}
+.leftmain{
+	width: 30%;
+	height: 100%;
+	float: left;
+	margin-left: 15%;
+}
+#img10, #img12{
+	margin-top: 5%;
+}
+#img6, #img7, #img8, #img9, #img11{
+	margin-top: 15%;
+}
+.rightmain{
+	width: 30%;
+	height: 100%;
+	float: right;
+	margin-right: 15%;
+
+}
+.footerlist{
+	width: 100%;
+	height: 15%;
+}
